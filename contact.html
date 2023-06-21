@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact me</title>
+    <link rel="icon" href="./assets/images/mono-icono.ico">
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/components/article.css" />
+    <link rel="stylesheet" href="./assets/css/components/header.css" />
+    <link rel="stylesheet" href="./assets/css/components/footer.css" />
+    <link rel="stylesheet" href="./assets/css/components/form.css" />
+  </head>
+  <body class="form">
+    <header class="header">
+      <div class="container-md">
+        <nav class="navbar">
+          <a href="index.html" class="text-decoration-none " >Celso Diaz</a>
+          <ul class="navbar--links list-style-none">
+            <li>
+              <a href="article.html" class="link text-md">Articles</a>
+            </li>
+            <li>
+              <a href="portafolio.html" class="link text-md">Portafolio</a>
+            </li>
+            <li>
+              <a href="about.html" class="link text-md">About</a>
+            </li>
+            <li>
+              <a
+                href="contact.html"
+                type="button"
+                class="button button--primary button--sm text-decoration-none"
+                >contact me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="section-padded-md-top bg-background">
+      <div class="container-md">
+        <div class="center mb-1">
+          <h2 class="heading-lg semi-bold mb-1/4">Contact Me</h2>
+        </div>
+        <p class="subtitulo form-auto-fill mb-3">
+          Looking to expand your team? Or do you need a web developer for a
+          specific project? If I can help you in any way don't hesitate to fill
+          this form.
+        </p>
+
+        <form>
+        <div class="form-grid-contact">
+          <article class="form-item">
+            <div class="mt-3 text-xs form-grid-item border-input">
+              <label for="first-name">First name</label>
+
+              <div class="input input--with-icon">
+              <img src="./assets/images/icons/user-chettos.svg" alt="icono persona">
+              <input
+                class="bewo-2 form-tipografy "
+                type="text"
+                name="John"
+                placeholder="John"
+                id="first-name"
+                required
+              />
+              </div>
+
+            </div>
+          </article>
+
+          <article class="form-item">
+            <div class="mt-3 text-xs form-grid-item border-input">
+              <label for="last-name">Last Name</label>
+              <div class="input input--with-icon">
+              <img src="./assets/images/icons/user-chettos.svg" alt="icono persona">
+              <input
+                class="bewo-2 form-tipografy "
+                type="text"
+                placeholder="Doe"
+                id="last-name"
+                name="Doe"
+                required
+              />
+              </div>
+            </div>
+          </article>
+
+          <article class="form-item">
+            <div class="mt-3 text-xs form-grid-item border-input">
+              <label for="email">Email</label>
+              <div class="input input--with-icon">
+              <img src="./assets/images/icons/correo.svg" alt="icono email">
+              <input
+                class="bewo-2 form-tipografy"
+                type="email"
+                placeholder="john@mail.com"
+                id="email"
+                name="john@mail.com"
+                required
+              />
+              </div>
+            </div>
+          </article>
+
+          <article class="form-item">
+            <div class="mt-3 text-xs form-grid-item border-input">
+              <label for="company">COMPANY</label>
+              <div class="input input--with-icon">
+              <img src="./assets/images/icons/company.svg" alt="icono company">
+              <input
+                class="bewo-2 form-tipografy"
+                type="text"
+                placeholder="Company SA"
+                id="company"
+                name="Company SA"
+              />
+              </div>
+            </div>
+          </article>
+
+          <div>
+          <article class="form-item">
+            <div class="mt-3 text-xs form-grid-item border-input">
+              <label for="telephone">Telephone</label>
+              <div class="input input--with-icon">
+              <img src="./assets/images/icons/cell.svg" alt="icono company">
+              <input
+                class="bewo-2 form-tipografy"
+                type="tel"
+                placeholder="987654321"
+                id="telephone"
+                name="987654321"
+              />
+              </div>
+            </div>
+          </article>
+          </div>
+
+          <div>
+          <article class="form-item">
+              <div class="mt-3 text-xs form-grid-item border-input">
+              <label class="overline text-xs regular">
+                Country
+              </label>
+              <div>
+              <select class="select">
+                <option value="">Select one Option</option>
+                <option value="1">Option one</option>
+                <option value="2">Option two</option>
+              </select>
+              </div>
+            </div>
+            </article>
+          </div>
+          
+        </div>
+
+        <div class="mb-1 mt-2">
+          <p class="overline mb-half">How can I help you?</p>
+          <div>
+            <div class="checkbox">
+              <input type="checkbox" name="php" id="php" value="php" class="checkbox__input" />
+              <div>
+                <label for="php" class="text-sm regular">Job Offer</label>
+                <span class="input__message input__message--help">If you are looking to expand your team</span>
+              </div>
+            </div>
+
+            <div class="checkbox">
+              <input type="checkbox" name="php" id="php" value="php" class="checkbox__input" />
+              <div>
+                <label for="php" class="text-sm regular">Project Offer</label>
+                <span class="input__message input__message--help">If you are looking to expand your team</span>
+              </div>
+            </div>
+
+            <div class="checkbox">
+              <input type="checkbox" name="php" id="php" value="php" class="checkbox__input" />
+              <div>
+                <label for="php" class="text-sm regular">Collaboration</label>
+                <span class="input__message input__message--help">If you are looking to expand your team</span>
+              </div>
+            </div>
+
+            <div class="checkbox">
+              <input type="checkbox" name="php" id="php" value="php" class="checkbox__input" />
+                <label for="php" class="text-sm regular">Other</label>
+            </div>
+
+          </div>
+        </div>
+
+          <input type="submit" value="Send" class="button button--primary button--sm text-decoration-none mb-3 display--max bewo">   
+        </form>        
+    
+      </div>
+    </section>
+
+  </body>
+</html>

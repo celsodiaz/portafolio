@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <title>Form</title>
+  <style>
+    input[type="text"] {
+      border: 1px solid blue;
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    .input-text {
+      display: flex;
+      gap: 4px;
+      border: 1px solid blue;
+      border-radius: 5px;
+      padding: 5px;
+      width: fit-content;
+    }
+
+    .input-text input {
+      border: none;
+    }
+
+    .input-text input:focus {
+      outline: none;
+    }
+
+    .input-text:focus-within {
+      border: 1px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="section-md">
+    <div class="container-md">
+      <h2 class="mb-1">Inputs</h2>
+      <form>
+        <div class="mb-1">
+          <label>First name
+            <input type="text" placeholder="Testino" id="first-name" name="first-name" required>
+          </label>
+        </div>
+        <div class="mb-1 input-text">
+          <img src="./assets/images/icon-person.svg" alt="person">
+          <input type="text" id="last-name" name="last-name" placeholder="Last name">
+        </div>
+        <div class="mb-1">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+        </div>
+        <div class="mb-1">
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" step="2">
+        </div>
+        <div class="mb-1">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password">
+        </div>
+        <div class="mb-1">
+          <label for="birthdate">Birthdate</label>
+          <input type="date" id="birthdate" name="birthdate">
+        </div>
+        <div class="mb-1">
+          <label for="color-input">Color</label>
+          <input type="color" id="color-input" name="color-input">
+        </div>
+        <div class="mb-1">
+          <label for="telephone">Telephone</label>
+          <input type="tel" placeholder="+591-1234567" id="telephone" name="telephone">
+          <!-- <small>123-564-1234</small>  pattern="^+[0-9]{3}-[0-9]{7}"-->
+        </div>
+        <div class="mb-1">
+          <p>Select to country:</p>
+          <input type="radio" name="pais" id="peru" value="PE"><label for="peru">Peru</label>
+          <input type="radio" name="pais" id="bolivia" value="BO"><label for="bolivia">Boliva</label>
+          <input type="radio" name="pais" id="colombia" value="COL"><label for="colombia">Colombia</label>
+          <input type="radio" name="pais" id="mexico" value="MX"><label for="mexico">Mexico</label>
+        </div>
+        <div class="mb-1">
+          <p>Select a city:</p>
+          <select name="city" id="city">
+            <option value="" selected disabled>-Select a city-</option>
+            <option value="lim">Lima</option>
+            <option value="lpz">La Paz</option>
+            <option value="cdmx">Ciudad de Mexico</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="mb-1">
+          <p>Which programming language do you know?</p>
+          <input type="checkbox" name="php" id="php" value="php"><label for="php">PHP</label>
+          <input type="checkbox" name="ruby" id="ruby" value="ruby"><label for="ruby">Ruby</label>
+          <input type="checkbox" name="python" id="python" value="python"><label for="python">Python</label>
+        </div>
+        <input type="submit" value="Enviar">
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
