@@ -1,0 +1,18 @@
+.header-media-query {
+    display:flex;
+    justify-content: end;
+}
+
+.navbar-media-query {
+    display:flex;
+    gap:20px;
+    justify-content: end;
+}
+
+.navbar-media-query a {
+    text-decoration: none;
+}
+
+.navbar-media-query li {
+    list-style-type: none;
+}

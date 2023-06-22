@@ -1,34 +1,13 @@
-body {
-    margin: 0;
-    padding:0;
-    background: #262626;
-  }
-  
-  .flex-ul {
+
+  .flex-ul-2 {
     display: flex;
     justify-content: end;
   }
   
-  .ul-li {
+  .ul-li-2 {
     list-style: none;
   }
   
-  .ancor {
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    text-align: center;
-    line-height: 50px;
-    font-size: 35px;
-    margin: 0 6.5px;
-    display: block;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-    border: 3px solid #fff;
-    z-index: 1;
-  }
-
     .ancor-2 {
     width: 50px;
     height: 50px;
@@ -45,31 +24,31 @@ body {
     z-index: 1;
   }
   
-   .icon-l {
+   .icon-l-2 {
     position: relative;
     color: #262626;
     transition: .5s;
     z-index: 3;
   }
 
-  .icon-m {
+  .icon-m-2 {
     position: relative;
     color: #262626;
     transition: .5s;
     z-index: 3;
   }
   
-  .ul-li a:hover .icon-l {
+  .ul-li-2 a:hover .icon-l-2 {
     color: #fff;
     transform: rotateY(360deg);
   }
 
-  .ul-li a:hover .icon-m {
+  .ul-li-2 a:hover .icon-m-2 {
     color: #1ed760;
     transform: rotateY(360deg);
   }
   
-  .ul-li a:before {
+  .ul-li-2 a:before {
     content: "";
     position: absolute;
     top: 100%;
@@ -81,38 +60,47 @@ body {
     z-index: 2;
   }
   
-  .ul-li a:hover:before {
+  .ul-li-2 a:hover:before {
     top: 0;
   }
   
-  .ul-li:nth-child(1) a:before{
-    background: #3b5999;
+  .ul-li-2:nth-child(1) a:before{
+    background: #F3F4F6;
   }
   
-  .ul-li:nth-child(2) a:before{
-    background: #55acee;
+  .ul-li-2:nth-child(2) a:before{
+    background: #F3F4F6;
   }
   
-  .ul-li:nth-child(3) a:before {
+  .ul-li-2:nth-child(3) a:before {
     background: #0077b5;
   }
   
-  .ul-li:nth-child(4) a:before {
-    background: #1e3050;
+  .ul-li-2:nth-child(4) a:before {
+    background: #fff;
   }
 
-  .ul-li:nth-child(5) a:before {
-    background: #E4405F;
+  .ppd-40-gr {
+    padding-inline-start: 0px;
   }
 
-  .ul-li:nth-child(6) a:before {
-    background: #191414;
+  .bg-icon{
+    background: #fff;
   }
 
-  .font-family {
-    font-family: none;
-  }
+.flex_none{
+    display: block;
+    float:right; 
+} 
 
-  .padding-icon{
-    padding-bottom: 5px;
-  }
+.icono-flex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 5fr;
+}
+
+.item1 {
+    max-width: 1280px;
+    padding: 0 16px;
+    margin: auto;
+  
+}
