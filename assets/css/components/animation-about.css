@@ -1,27 +1,17 @@
-/* .body-container-animation {
-    width: 100%;
-    height: 100%;
-    background-color: var(--secondary-light);
-  } */
-
   .animation-grid {
     display: grid;
     gap: 8px;
-    grid-template-rows: repeat(auto-fill,minmax(auto-fit));
   }
 
   .content-animation {
     position:absolute;
-    /* top: 25%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
     height: 160px;
     overflow:hidden;
     
     font-family: 'Lato', sans-serif;
     font-size: 35px;
     line-height: 40px;
-    color: var(--secondary-darker);
+    color: var(--gray-600);
   }
     .content-animation__container {
       font-weight: 600;
